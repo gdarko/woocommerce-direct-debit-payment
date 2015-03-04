@@ -204,10 +204,7 @@ add_action('plugins_loaded', 'init_direct_debits_gateway', 0);
 	// Register metabox
 	add_action( 'add_meta_boxes',  'add_directdebit_metabox' );
 	function add_directdebit_metabox(){
-		global $post;
-		if ( $post->post_type = 'shop_order' ){
 			 add_meta_box( 'direct-debit-metabox', 'IBAN and BIC Information',  'directdebit_information_render', 'shop_order', 'normal', 'default');
-		}
 	}
 	// Pull the $_POST info into the Order type item
 	function directdebit_information_render(){
