@@ -5,6 +5,7 @@ Integrates Woocommerce with the SEPA Direct Debit payment in offline mode to get
 It's fairly simple, please follow the instructions
 * Install the plugin
 * Go to Dashboard > WooCommerce > Settings > Checkout > Enable the Direct Debit Payments
+* Go to WooCommerce > Orders, View an order and here you can find the IBAN and BIC entered by the customer
 
 # Settings
 Currently there are two fileds. 
